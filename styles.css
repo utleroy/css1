@@ -9,6 +9,8 @@ body {
 
 .title {
   border-color: green;
+  text-align: center;
+  font-size: 50px;
 }
 
 .image {
@@ -17,14 +19,20 @@ body {
 
 .text1 {
   border-color: orange;
+  width: 45%;
+  float: left;
 }
 
 .text2 {
   border-color: yellow;
+  float: right;
+  width: 45%;
+
 }
 
 .footer {
   border-color: black;
+  clear: both;
 }
 
 .top-nav {
@@ -39,4 +47,12 @@ body {
   padding: 0 9px;
   float: left;
   margin: 10px;
+}
+
+.img-box {
+  width: 30%;
+  height: 50px;
+  border: 2px dashed lime;
+  display: inline-block;
+  margin-right: 2%;
 }
