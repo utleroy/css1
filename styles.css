@@ -1,3 +1,28 @@
 body {
   background-color: pink;
 }
+
+
+.new-border {
+  border: 2px solid black;
+}
+
+.title {
+  border-color: green;
+}
+
+.image {
+  border-color: red;
+}
+
+.text1 {
+  border-color: orange;
+}
+
+.text2 {
+  border-color: yellow;
+}
+
+.footer {
+  border-color: black;
+}
