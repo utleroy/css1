@@ -3,9 +3,12 @@ body {
 }
 
 nav {
-  display: block;
-  border: 2px solid black;
+  position: fixed;
   background-color: black;
+  left:0px;
+  top:0px;
+  height:50px;
+  width:100%;
 }
 
 nav ul li {
@@ -30,8 +33,32 @@ div img {
 
 .center {
   text-align: center;
+  height: 40px;
 }
 
 input {
   border: 1px solid grey;
+}
+
+.search-input {
+  height: 30px;
+  width: 400px;
+
+}
+
+.search {
+  width: 40px;
+}
+
+.footer {
+ position:fixed;
+ left:0px;
+ bottom:0px;
+ height:30px;
+ width:100%;
+ background:#999;
+}
+
+button {
+  display: none;
 }
