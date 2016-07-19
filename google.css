@@ -24,8 +24,12 @@ nav li:nth-child(5) {
 }
 
 div img {
-  width: 1400px;
-  float: center;
+  width: 1435px;
+
+}
+
+.center {
+  text-align: center;
 }
 
 input {
