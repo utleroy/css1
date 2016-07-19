@@ -26,3 +26,17 @@ body {
 .footer {
   border-color: black;
 }
+
+.top-nav {
+  background-color: goldenrod;
+  height: 45px;
+}
+
+.top-nav li {
+  list-style-type: none;
+  font-family: "Arial";
+  display: inline;
+  padding: 0 9px;
+  float: left;
+  margin: 10px;
+}
