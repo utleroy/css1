@@ -1,3 +1,32 @@
 body {
   background: #999;
 }
+
+div {
+  border: 3px solid navy;
+}
+
+.div-inline-block {
+  display: inline-block;
+  color: yellow
+}
+
+.div-inline {
+  display: inline;
+}
+
+.div-block {
+  display: block;
+}
+
+article section:nth-child(2n) {
+  border: 2px dashed red;
+}
+
+article section:nth-child(2n+1) {
+  border: 2px dashed white;
+}
+
+article section:first-of-type {
+  background-color: goldenrod;
+}
